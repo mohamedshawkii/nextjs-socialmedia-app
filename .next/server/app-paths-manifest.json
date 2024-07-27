@@ -1,0 +1,10 @@
+{
+  "/api/post/route": "app/api/post/route.js",
+  "/api/user/route": "app/api/user/route.js",
+  "/api/user/[id]/route": "app/api/user/[id]/route.js",
+  "/api/user/profile/[profileId]/route": "app/api/user/profile/[profileId]/route.js",
+  "/(root)/page": "app/(root)/page.js",
+  "/(root)/create-post/page": "app/(root)/create-post/page.js",
+  "/(root)/profile/[id]/following/page": "app/(root)/profile/[id]/following/page.js",
+  "/(root)/profile/[id]/posts/page": "app/(root)/profile/[id]/posts/page.js"
+}
