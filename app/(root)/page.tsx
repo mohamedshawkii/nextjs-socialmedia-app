@@ -30,7 +30,7 @@ const Home = () => {
   return loading || !isLoaded ? (
     <SideBarLoader />
   ) : (
-    <Box sx={{ display: 'flex', flexDirection: 'column', gap: '2.5rem', justifyContent: 'center', width: '100%', }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: '2.5rem', width: '100%',height: '50%' }}>
       {feedPost?.map((post: creatorAndPostFC) => (
         <PostCard
           key={post._id}

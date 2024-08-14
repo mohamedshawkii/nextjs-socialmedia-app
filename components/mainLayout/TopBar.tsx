@@ -28,9 +28,9 @@ function TopBar() {
     }
   }, [user])
 
-
   return loaded || !isLoaded ? <SideBarLoader /> : (
-    <Box component={'nav'} sx={{ padding: '1rem', width: 'full', display: 'flex', flex: 'row', alignItems: 'center', justifyContent: 'space-between' }} >
+    <Box component={'nav'} sx={{ padding: '1rem', width: 'full', display: 'flex', flex: 'row', alignItems: 'center', justifyContent: 'space-between',borderWidth: '1px',
+      borderColor: '#2F3336',}} >
       <Box sx={{ display: 'flex', flex: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '0.4rem' }}>
         <UserButton afterSignOutUrl='/sign-in' appearance={{ elements: { userButtonAvatarBox: "w-10 h-10" } }} />
         <Link href={`/profile/${userInfo?._id}/posts`}>

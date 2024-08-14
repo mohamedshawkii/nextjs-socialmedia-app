@@ -5,7 +5,7 @@ const SideBarLoader = () => {
     <Box component={'aside'}
       sx={{
         width: '16.75rem',
-        height: 'full',
+        height: '100%',
         borderWidth: '1px',
         borderColor: '#2F3336',
         padding: '1rem'

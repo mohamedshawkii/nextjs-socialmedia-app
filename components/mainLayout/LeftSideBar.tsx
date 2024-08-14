@@ -48,7 +48,8 @@ function LeftSideBar() {
             height: '100vh',
             borderWidth: '1px',
             borderColor: '#2F3336',
-            padding: '1rem'
+            padding: '1rem',
+            display: {md:'block',xs:'none'},
           }}
         >
           <Link href={'/'}>

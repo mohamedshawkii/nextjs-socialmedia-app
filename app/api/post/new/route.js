@@ -42,7 +42,6 @@ export const POST = async (req) => {
         {$push: {posts: NewPost._id}},
         {new:true, useFindAndModify:false}
        )
-
        return new Response(JSON.stringify(NewPost), {status: 200})
     } catch (error) {
         console.error(error)

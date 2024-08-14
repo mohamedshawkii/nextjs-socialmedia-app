@@ -30,9 +30,10 @@ function rightSideBar() {
             overflow: 'hidden',
             width: '22.75rem',
             height: '100vh',
+            display: { md: 'block', xs: 'none' },
           }}
         >
-          <Box sx={{ height: '4rem', borderWidth: '1px', borderColor: '#2F3336', paddingLeft: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <Box sx={{ height: '4rem', borderBottomWidth: '1px', borderColor: '#2F3336', paddingLeft: '1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <Typography>Other People</Typography>
           </Box>
 

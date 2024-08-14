@@ -11,20 +11,36 @@
       "static/css/app/(root)/layout.css",
       "static/chunks/app/(root)/layout.js"
     ],
+    "/(auth)/sign-in/[[...sign-in]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/sign-in/[[...sign-in]]/page.js"
+    ],
+    "/(auth)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(auth)/layout.css",
+      "static/chunks/app/(auth)/layout.js"
+    ],
     "/(root)/create-post/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(root)/create-post/page.js"
     ],
-    "/(root)/profile/[id]/following/page": [
+    "/(root)/people/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/profile/[id]/following/page.js"
+      "static/chunks/app/(root)/people/page.js"
     ],
-    "/(root)/profile/[id]/posts/page": [
+    "/(root)/liked-posts/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/profile/[id]/posts/page.js"
+      "static/chunks/app/(root)/liked-posts/page.js"
+    ],
+    "/(root)/saved-posts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(root)/saved-posts/page.js"
     ]
   }
 }
